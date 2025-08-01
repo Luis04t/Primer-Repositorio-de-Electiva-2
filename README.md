@@ -1,2 +1,1 @@
-# Primer-Repositorio-de-Electiva-2
-Primera practica: Crear Repositorio en Github
+Primer Repositorio de electiva #2 con una Rama
