@@ -1,0 +1,65 @@
+/* Color principal */
+:root {
+  --naranja: #ff7a00;
+  --naranja-oscuro: #e86c00;
+  
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--naranja) !important;
+  width: 950px;
+  margin-left: 10px;
+}
+
+.navbar .btn-outline-light {
+  border-color: white;
+  color: white;
+}
+
+.navbar .btn-outline-light:hover {
+  background-color: white;
+  color: var(--naranja);
+}
+
+/* Botones */
+.btn-primary,
+.btn-success,
+.btn-warning {
+  background-color: var(--naranja);
+  border-color: var(--naranja);
+  color: white;
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.btn-warning:hover {
+  background-color: var(--naranja-oscuro);
+  border-color: var(--naranja-oscuro);
+}
+
+/* Botón eliminar */
+.btn-danger {
+  background-color: #dc3545;
+}
+
+/* Card formulario */
+.card {
+  max-width: 1000px; /* MÁS ANCHO */
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+h2 {
+  color: var(--naranja);
+}
+
+/* Tabla */
+.table thead {
+  background-color: var(--naranja);
+  color: white;
+}
+
+
